@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { ethers } from 'ethers';
 // IMPORT ABI KONTRAK SAPI ABANG DI SINI
-import FarmVLivestockABI from '../constants/FarmVLivestock.json';
+// import FarmVLivestockABI from '../constants/FarmVLivestock.json';
 
 export default function Profile() {
     const [account, setAccount] = useState('');
